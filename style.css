@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 1440px) {
+    body{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 375px) {
+        body{
+            width: 100%;
+        }
+}
+body{
+    background-color:hsl(0, 0%, 95%)
+}
+main{
+    width: 50%;
+    margin: auto;
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h2{
+    color:hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family:'Lexend Deca';
+    font-size: 15px;
+}
+.apple{
+    background-color:hsl(31, 77%, 52%);
+    padding: 1.95em;
+    
+    }
+
+
+.pear{
+    background-color: hsl(184, 100%, 22%);
+    padding: 1.95em;
+    
+    
+}
+
+.grape{
+    background-color:hsl(179, 100%, 13%);
+    padding: 1.95rem;
+    
+}
+button{
+    border-radius: 100px;
+    border: none;
+    width: 90px;
+    height: 30px;
+    color: hsl(0, 0%, 95%);
+}
+.a{
+    color: hsl(31, 77%, 52%);
+}
+.b{
+    color:hsl(184, 100%, 22%);
+}
+.c{
+    color: hsl(179, 100%, 13%);
+}
